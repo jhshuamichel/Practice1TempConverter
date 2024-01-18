@@ -1,0 +1,49 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script>
+        // Temperature Converter
+        console.log("Hello World!");
+        var tempFahrenheit = 75;
+        const fahrenheitToCelcius = (tempFahrenheit - 32) * 5/9;
+        const fahrenheitToKelvin = fahrenheitToCelcius + 273.15;
+        
+        console.log(tempFahrenheit);
+        console.log(fahrenheitToCelcius);
+        console.log(fahrenheitToKelvin);
+        
+        var todaysForecast = "The current temperature outside is, " + tempFahrenheit + " degrees Fahrenheit, " + fahrenheitToCelcius + " degrees Celsius, " + fahrenheitToKelvin + " degrees Kelvin ";
+        
+        console.log(todaysForecast);
+        // Temperature Converter Ends
+        // 
+        // Personalized Greeting
+        var firstName = "Joshua";
+        var lastName = "Michel";
+        var yearsLivedOnEarth = 26
+        var cityLivingOnEarth = "San Diego";
+
+        var firstInitials = firstName.charAt(0);
+        var lastInitials = lastName.charAt(0);
+
+        var initials = firstInitials + lastInitials;
+        var nameLength = firstName;
+        
+        const name = firstName;
+        const uppercase = name.toUpperCase();
+
+        
+        console.log("Hello! My name is, " + firstName + " " +  lastName + " I'm, " + yearsLivedOnEarth + " and I'm from, " + cityLivingOnEarth + " It's nice to meet you!");
+        console.log("Initials: ", initials);
+        console.log(nameLength.length);
+        console.log(uppercase);
+
+    </script>
+</head>
+<body>
+    
+</body>
+</html>
